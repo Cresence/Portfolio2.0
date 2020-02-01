@@ -16,7 +16,16 @@ var app = new Vue({
     el: '#app-3',
     data: {
       seen: true
-    }
+    },
+    methods: {
+        reverseSeen: function () {
+         if (this.seen === true) {
+             this.seen = false
+         } else {
+             this.seen = true
+         }
+        }
+      }
   })
   
   var app4 = new Vue({
@@ -27,5 +36,17 @@ var app = new Vue({
         { text: 'Learn Vue' },
         { text: 'Build something awesome' }
       ]
+    }
+  })
+
+  var app5 = new Vue({
+    el: '#app-5',
+    data: {
+      message: 'Hello Vue.js!'
+    },
+    methods: {
+      reverseMessage: function () {
+        this.message = this.message.split('').reverse().join('')
+      }
     }
   })

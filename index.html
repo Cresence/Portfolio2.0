@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>    <title>Porfolio 2.0</title>
     
 </head>
@@ -22,6 +22,7 @@
 
       <div id="app-3">
         <span v-if="seen">Now you see me</span>
+        <button v-on:click="reverseSeen">Reverse Message</button>
       </div>
 
       <div id="app-4">
@@ -30,6 +31,11 @@
             {{ todo.text }}
           </li>
         </ol>
+      </div>
+
+      <div id="app-5">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
       </div>
    
     <script src="index.js"></script> 

@@ -20,7 +20,13 @@ descThree.innerText =
 `
 
 const summary = document.querySelector("#aboutMe");
-summary.innerText = `A lifelong tech hobbyist. Now a certified full-stack developer aiming to combine my accumulated work ethic into my always present interest in technology. To obtain opportunities, to gain knowledge, and to experience in servicing any occupation within my best capabilities or beyond.`
+summary.innerText = `A lifelong tech hobbyist. Now a certified full-stack developer aiming to combine my accumulated work ethic into my always present interest in technology. To obtain opportunities, to gain knowledge, and to experience in servicing any occupation within my best capabilities or beyond.
+
+Web Development: MERN Stack, Express.js, React.js, Node.js, JavaScript ES5/ES6, Handlebars.js, JQuery, JSON, AJAX, HTML, CSS, Heroku, REST APIs, Twitter Bootstrap, Sequelize, Google Materialize
+
+Databases: MongoDB, MySQL, FireBase
+
+Miscellaneous: Windows, Git/Github, Twitter API, Spotify API, Google Sheets, Google Suite, Microsoft Suite`
 
 window.kontext = function( container ) {
 

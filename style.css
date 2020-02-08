@@ -299,6 +299,14 @@ div.gallery {
     width: 24.99999%;
   }
 
+  a:visited {
+    color: #fff;
+  }
+  a {
+      color:blue;
+  }
+  
+
   @media only screen and (max-width: 1856px) {
       div.gallery {
         margin-top: 55%;
@@ -352,3 +360,15 @@ video {
     max-width: 100%;
     height: auto;
 } 
+
+.fa-linkedin {
+    margin-right: 10px;
+}
+
+.fa-envelope {
+    margin-right: 10px;
+}
+
+.fa-github {
+    margin-right: 10px;
+}

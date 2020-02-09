@@ -25,7 +25,9 @@ Web Development: MERN Stack, Express.js, React.js, Node.js, JavaScript ES5/ES6, 
 
 Databases: MongoDB, MySQL, FireBase
 
-Miscellaneous: Windows, Git/Github, Twitter API, Spotify API, Google Sheets, Google Suite, Microsoft Suite`
+Miscellaneous: Windows, Git/Github, Twitter API, Spotify API, Google Sheets, Google Suite, Microsoft Suite
+
+(Use the dots below or your keyoard arrows to navigate.)`
 
 window.kontext = function( container ) {
 

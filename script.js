@@ -5,7 +5,7 @@ header.innerText =
 const descOne = document.getElementById('desc1');
 const descTwo = document.getElementById('desc2');
 const descThree = document.getElementById('desc3');
-// const descFour = document.getElementById('desc4');
+const summary = document.querySelector("#aboutMe");
 
 descOne.innerText =
 `Sandy's Pet Hotel:\nThis application is for pet parents who are in need of a place to take care of their animals while they are temporarily away. Log-in to book your stay.
@@ -19,7 +19,6 @@ descThree.innerText =
 `RPG Game:\nThe is a 1v1 game turn-based RPG with 3 classes (Knight/Wizard/Thief) where users can prompt to attack or counter attack depending on class stats.
 `
 
-const summary = document.querySelector("#aboutMe");
 summary.innerText = `A lifelong tech hobbyist. Now a certified full-stack developer aiming to combine my accumulated work ethic into my always present interest in technology. To obtain opportunities, to gain knowledge, and to experience in servicing any occupation within my best capabilities or beyond.
 
 Web Development: MERN Stack, Express.js, React.js, Node.js, JavaScript ES5/ES6, Handlebars.js, JQuery, JSON, AJAX, HTML, CSS, Heroku, REST APIs, Twitter Bootstrap, Sequelize, Google Materialize

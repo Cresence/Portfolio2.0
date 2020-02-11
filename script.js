@@ -27,7 +27,9 @@ Databases: MongoDB, MySQL, FireBase
 
 Miscellaneous: Windows, Git/Github, Twitter API, Spotify API, Google Sheets, Google Suite, Microsoft Suite
 
-(Use the dots below or your keyoard arrows to navigate.)`
+(Use the dots below or your keyoard arrows to navigate.)
+
+*Best viewed in Desktop/Laptop View`
 
 window.kontext = function( container ) {
 

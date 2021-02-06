@@ -16,7 +16,7 @@ descTwo.innerText =
 `
 
 descThree.innerText =
-`Media Manager:\nMedia Manager is a website template in a blog/media-content style allowing users to sign up and login (authentication provided by Auth0)..
+`Media Manager:\nMedia Manager is a website template in a blog/media-content style allowing users to sign up and login.
 
 `
 

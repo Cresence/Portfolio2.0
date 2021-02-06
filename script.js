@@ -16,7 +16,8 @@ descTwo.innerText =
 `
 
 descThree.innerText =
-`RPG Game:\nThe is a 1v1 game turn-based RPG with 3 classes (Knight/Wizard/Thief) where users can prompt to attack or counter attack depending on class stats.
+`Media Manager:\nMedia Manager is a website template in a blog/media-content style allowing users to sign up and login (authentication provided by Auth0)..
+
 `
 
 summary.innerText = `A lifelong tech hobbyist. Now a certified full-stack developer aiming to combine my accumulated work ethic into my always present interest in technology. To obtain opportunities, to gain knowledge, and to experience in servicing any occupation within my best capabilities or beyond.
